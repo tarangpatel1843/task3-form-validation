@@ -1,0 +1,21 @@
+body {
+  overflow-x: hidden;
+}
+.container {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(43, 13, 71);
+  color: white;
+  /* background-color:#bcbbbb; */
+}
+div.container h2 {
+  text-align: center;
+}
+  @media (max-width: 576px) {
+    .col-sm-12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+
